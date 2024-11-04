@@ -30,4 +30,4 @@ sudo systemctl enable blockmesh
 sudo systemctl restart blockmesh
 
 sudo journalctl -u blockmesh -f
-sudo journalctl -u blockmesh -n 30 -f
+sudo journalctl -u blockmesh -n 30
