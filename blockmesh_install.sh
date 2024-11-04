@@ -5,5 +5,5 @@ tar -xzvf blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
 sleep 1
 rm blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
 cd target/x86_64-unknown-linux-gnu/release/
-
+screen -S blockmesh 
 # /root/blockmesh/target/x86_64-unknown-linux-gnu/release/blockmesh-cli --email gera.122@mail.ru --password Emzige8672$
