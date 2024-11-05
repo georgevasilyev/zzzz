@@ -25,6 +25,7 @@ WantedBy=multi-user.target
 EOT"
 
 systemctl daemon-reload
+sleep 3
 systemctl enable blockmesh
 systemctl restart blockmesh
 
