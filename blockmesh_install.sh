@@ -5,7 +5,6 @@ tar -xzvf blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
 sleep 1
 rm blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
 cd target/x86_64-unknown-linux-gnu/release/
-# screen -S blockmesh 
 # /root/blockmesh/target/x86_64-unknown-linux-gnu/release/blockmesh-cli --email gera.122@mail.ru --password Emzige8672$
 
 
@@ -24,10 +23,12 @@ Restart=always
 WantedBy=multi-user.target
 EOT"
 
+
 systemctl daemon-reload
-sleep 3
+sleep 2
 systemctl enable blockmesh
 systemctl restart blockmesh
-
 journalctl -u blockmesh -f
+
+
 journalctl -u blockmesh -n 30
