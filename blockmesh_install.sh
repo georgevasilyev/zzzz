@@ -15,8 +15,8 @@ Description=BlockMesh CLI Service
 After=network.target
 
 [Service]
-User=$USERNAME
-ExecStart=/target/x86_64-unknown-linux-gnu/release/blockmesh-cli login --email 9179122122@mail.ru --password Emzige8672$
+User=root
+ExecStart=/target/x86_64-unknown-linux-gnu/release/blockmesh-cli login --email donaldgonzalez5355887@gmail.com --password Emzige8672$
 WorkingDirectory=/target/x86_64-unknown-linux-gnu/release
 Restart=always
 
