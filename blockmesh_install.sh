@@ -32,3 +32,6 @@ journalctl -u blockmesh -f
 
 
 journalctl -u blockmesh -n 30
+
+
+# обновление 
