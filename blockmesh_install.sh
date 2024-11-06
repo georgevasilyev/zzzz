@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # wget --no-cache -q -O blockmesh.sh https://raw.githubusercontent.com/noxuspace/cryptofortochka/main/blockmesh.sh && sudo chmod +x blockmesh.sh && ./blockmesh.sh
 cd /
 wget https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.331/blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
@@ -31,7 +33,4 @@ systemctl restart blockmesh
 journalctl -u blockmesh -f
 
 
-journalctl -u blockmesh -n 30
-
-
-# обновление 
+# journalctl -u blockmesh -n 30
