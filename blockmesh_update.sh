@@ -12,7 +12,8 @@ sleep 1
 # wget --no-cache -q -O blockmesh.sh https://raw.githubusercontent.com/noxuspace/cryptofortochka/main/blockmesh.sh && sudo chmod +x blockmesh.sh && ./blockmesh.sh
 cd /
 # wget https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.331/blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
-wget https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.342/blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
+# wget https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.342/blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
+wget https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.347/blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
 tar -xzvf blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
 sleep 1
 rm blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
