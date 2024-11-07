@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # обновление
+# wget https://raw.githubusercontent.com/georgevasilyev/zzzz/refs/heads/main/blockmesh_update.sh && sudo chmod +x blockmesh_update.sh && ./blockmesh_update.sh
+
 sudo systemctl stop blockmesh
 sudo systemctl disable blockmesh
 sudo rm /etc/systemd/system/blockmesh.service
