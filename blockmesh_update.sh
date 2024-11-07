@@ -35,7 +35,7 @@ After=network.target
 
 [Service]
 User=root
-ExecStart=/target/x86_64-unknown-linux-gnu/release/blockmesh-cli login --email donaldgonzalez5355887@gmail.com --password Emzige8672$
+ExecStart=/target/x86_64-unknown-linux-gnu/release/blockmesh-cli login --email oooavers2018@mail.ru --password Emzige8672$
 WorkingDirectory=/target/x86_64-unknown-linux-gnu/release
 Restart=always
 
