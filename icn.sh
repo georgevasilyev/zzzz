@@ -16,7 +16,7 @@ tail -n 20 /icn.log
 
 
 
-cd / && screen -dmS rivalz rivalz run > rivalz.log 2>&1"
+cd / && screen -dmS rivalz rivalz run > rivalz.log 2>&1
 tail -n 20 /rivalz.log
 
 
