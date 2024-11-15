@@ -1,11 +1,11 @@
 #!/bin/bash
 
-sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+# apt install apt-transport-https ca-certificates curl software-properties-common -y
+#curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 # может и не надо
-# sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" && 
-sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
-
+# add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" && 
+# apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
+apt install docker.io -y && docker --version
 # Устанавливаем Accuser Image
 docker pull nillion/verifier:v1.0.1
 
@@ -26,4 +26,5 @@ cat /root/nillion/verifier/credentials.json
 # https://verifier.nillion.com/verifier
 
 # Далее запускаем ноду
-docker run -v /root//nillion/verifier:/var/tmp nillion/verifier:v1.0.1 verify --rpc-endpoint "https://testnet-nillion-rpc.lavenderfive.com" 
+screen -dmS nillion docker run -v /root//nillion/verifier:/var/tmp nillion/verifier:v1.0.1 verify --rpc-endpoint "https://testnet-nillion-rpc.lavenderfive.com" 
+# screen -r nillion
