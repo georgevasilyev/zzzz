@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # apt install apt-transport-https ca-certificates curl software-properties-common -y
-#curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+# curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 # может и не надо
 # add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu focal stable" && 
 # apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
@@ -26,5 +26,11 @@ cat /root/nillion/verifier/credentials.json
 # https://verifier.nillion.com/verifier
 
 # Далее запускаем ноду
-screen -dmS nillion docker run -v /root//nillion/verifier:/var/tmp nillion/verifier:v1.0.1 verify --rpc-endpoint "https://testnet-nillion-rpc.lavenderfive.com" 
-# screen -r nillion
+screen -S nillion docker run -v /root//nillion/verifier:/var/tmp nillion/verifier:v1.0.1 verify --rpc-endpoint "https://testnet-nillion-rpc.lavenderfive.com"
+
+# ОДНОЙ КОМАНДОЙ !!!!!!!!!
+apt install docker.io -y && docker pull nillion/verifier:v1.0.1 && mkdir -p /root/nillion/verifier && docker run -v /root/nillion/verifier:/var/tmp nillion/verifier:v1.0.1 initialise && cat /root/nillion/verifier/credentials.json
+
+
+
+
