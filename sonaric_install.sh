@@ -1,7 +1,8 @@
 #!/bin/bash
 
 # lsb_release -a
-# https://raw.githubusercontent.com/georgevasilyev/zzzz/refs/heads/main/sonaric_install.sh
+# wget https://raw.githubusercontent.com/georgevasilyev/zzzz/refs/heads/main/sonaric_install.sh && sudo chmod +x sonaric_install.sh && ./sonaric_install.sh
+
 sudo apt install curl git jq build-essential gcc unzip wget lz4 -y
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt-get install nodejs -y
