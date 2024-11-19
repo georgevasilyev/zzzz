@@ -25,7 +25,7 @@ cat /root/nillion/verifier/credentials.json
 # идем на сайт и привязываем кеплр
 # https://verifier.nillion.com/verifier
 
-# Далее запускаем ноду
+# Далее запускаем ноду!
 screen -S nillion docker run -v /root//nillion/verifier:/var/tmp nillion/verifier:v1.0.1 verify --rpc-endpoint "https://testnet-nillion-rpc.lavenderfive.com"
 
 # ОДНОЙ КОМАНДОЙ !!!!!!!!!
