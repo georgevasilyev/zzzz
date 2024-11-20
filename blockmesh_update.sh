@@ -15,7 +15,7 @@ sleep 1
 cd /
 # wget https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.331/blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
 # wget https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.342/blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
-wget https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.376/blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
+wget https://github.com/block-mesh/block-mesh-monorepo/releases/download/v0.0.390/blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
 tar -xzvf blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
 sleep 1
 rm blockmesh-cli-x86_64-unknown-linux-gnu.tar.gz
