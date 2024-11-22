@@ -16,13 +16,13 @@
 sudo apt install screen -y
 # screen -S icn && curl -o- https://console.icn.global/downloads/install/start.sh | bash -s -- -p badcb80e6a16145619b0532affe3b66e52418c28bff8be3aabb16d83eb8162cc
 # screen -dmS icn bash -c "curl -o- https://console.icn.global/downloads/install/start.sh | bash -s -- -p badcb80e6a16145619b0532affe3b66e52418c28bff8be3aabb16d83eb8162cc"
-cd / && screen -dmS icn bash -c "curl -o- https://console.icn.global/downloads/install/start.sh | bash -s -- -p d107498a19082333bbec96595704156f4562da56857ae6eab99c02492f1fae30 > icn.log 2>&1"
+cd / && screen -dmS icn bash -c "curl -o- https://console.icn.global/downloads/install/start.sh | bash -s -- -p 0xe3745215ebaf7b9dc1f7588fe4ed8e1809822381f9b4f1d2061c5664df2649f5 > icn.log 2>&1"
 tail -n 20 /icn.log
 tail -f /icn.log
 
 
-# cd / && screen -dmS rivalz rivalz run > rivalz.log 2>&1
-# tail -n 20 /rivalz.log
+cd / && screen -dmS rivalz rivalz run > rivalz.log 2>&1
+tail -n 20 /rivalz.log
 
 
 
