@@ -1,0 +1,12 @@
+docker run -d --name grass -h my_device -e GRASS_USER=your_email -e GRASS_PASS=your_password mrcolorrain/grass
+
+version: "3.9"
+services:
+  grass:
+    container_name: grass
+    hostname: my_device
+    image: mrcolorrain/grass
+    environment:
+      - GRASS_USER=your_email
+      - GRASS_PASS=your_password
+    restart: unless-stopped
