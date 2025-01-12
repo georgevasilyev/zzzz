@@ -15,6 +15,16 @@ mkdir -p $HOME/goproject
 apt install git make build-essential -y
 go version
 
+
+cd ~
+wget https://github.com/XeChain/xeMiner/releases/download/v1.0/linux.zip
+mkdir -p ~/xechain/miner
+unzip linux.zip -d ~/xechain/miner
+rm linux.zip
+cd /root/xechain/miner
+
+
+
 # cd /
 # git clone https://github.com/XeChain/xe-core
 # cd xe-core
