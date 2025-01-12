@@ -1,0 +1,10 @@
+apt install goloang-go git make build-essential -y
+cd /
+git clone https://github.com/XeChain/xe-core
+cd xe-core
+make xe
+
+cd build/bin
+chmod +x xe
+screen -S xe
+./xe
