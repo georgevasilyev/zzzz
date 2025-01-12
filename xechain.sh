@@ -13,8 +13,8 @@
 #apt install git make build-essential -y
 #go version
 
+#install miner
 mkdir -p /root/xechain/miner
-
 cd /root/xechain/miner
 wget https://github.com/XeChain/xeMiner/releases/download/v1.0/linux.zip
 unzip linux.zip -d /root/xechain/miner
@@ -25,6 +25,7 @@ chmod +x ./xeMiner
 #Show OpenCL devices informations
 #./xeMiner -info -all
 
+#install node
 cd /root/xechain
 git clone https://github.com/XeChain/xe-core
 #cd xe-core
