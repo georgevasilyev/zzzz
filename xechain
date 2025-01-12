@@ -1,4 +1,4 @@
-
+# wget https://raw.githubusercontent.com/georgevasilyev/zzzz/refs/heads/main/xechain.sh && sudo chmod +x xechain.sh && .xechain.sh
 sudo apt remove golang-go -y
 sudo rm -rf /usr/local/go
 apt update -y
@@ -18,12 +18,12 @@ mkdir $HOME/goproject && go version
 apt install git make build-essential -y
 
 
-#cd /
-#git clone https://github.com/XeChain/xe-core
-#cd xe-core
-#make xe
+# cd /
+# git clone https://github.com/XeChain/xe-core
+# cd xe-core
+# make xe
 
-#cd build/bin
-#chmod +x xe
-#screen -S xe
-#./xe
+# cd build/bin
+# chmod +x xe
+# screen -S xe
+# ./xe
