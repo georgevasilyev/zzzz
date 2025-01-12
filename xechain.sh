@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-# wget https://raw.githubusercontent.com/georgevasilyev/zzzz/refs/heads/main/xechain.sh && sudo chmod +x xechain.sh && .xechain.sh
+# wget https://raw.githubusercontent.com/georgevasilyev/zzzz/refs/heads/main/xechain.sh && sudo chmod +x xechain.sh && /.xechain.sh
 sudo apt remove golang-go -y
 sudo rm -rf /usr/local/go
 apt update -y
