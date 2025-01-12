@@ -11,12 +11,9 @@ wget https://go.dev/dl/go1.21.3.linux-amd64.tar.gz
 sudo tar -C /usr/local -xzf go1.21.3.linux-amd64.tar.gz
 echo -e "\nexport PATH=\$PATH:/usr/local/go/bin\nexport GOPATH=\$HOME/goproject\nexport PATH=\$PATH:\$GOPATH/bin" >> ~/.profile
 source ~/.profile
-mkdir $HOME/goproject && go version
-
-
-
+mkdir -p $HOME/goproject
 apt install git make build-essential -y
-
+go version
 
 # cd /
 # git clone https://github.com/XeChain/xe-core
