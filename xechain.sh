@@ -1,12 +1,10 @@
 #!/bin/bash
+#wget https://raw.githubusercontent.com/georgevasilyev/zzzz/refs/heads/main/xechain.sh && chmod +x xechain.sh && ./xechain.sh
 
-
-# wget https://raw.githubusercontent.com/georgevasilyev/zzzz/refs/heads/main/xechain.sh && chmod +x xechain.sh && ./xechain.sh
 #cd ~
 #sudo apt remove golang-go -y
 #sudo rm -rf /usr/local/go
 #apt update -y
-
 #wget https://go.dev/dl/go1.21.3.linux-amd64.tar.gz
 #sudo tar -C /usr/local -xzf go1.21.3.linux-amd64.tar.gz
 #echo -e "\nexport PATH=\$PATH:/usr/local/go/bin\nexport GOPATH=\$HOME/goproject\nexport PATH=\$PATH:\$GOPATH/bin" >> ~/.profile
