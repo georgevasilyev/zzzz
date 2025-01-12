@@ -42,5 +42,5 @@ git clone https://github.com/XeChain/xe-core
 #./xe -ws -mine -miner.etherbase=0xEc686836f18b36b8Af527cb309394113d0B6D859
 
 #Run the miner
-#screen -S xeminer ./xeMiner
+#cd /root/xechain/miner && screen -S xeminer ./xeMiner -mock -all
 #The default pool address is ws://127.0.0.1:8546.
